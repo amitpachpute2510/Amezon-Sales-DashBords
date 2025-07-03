@@ -1,44 +1,50 @@
 # 📊 Amazon Sales Dashboard 2024
 
-A visually insightful and interactive **Amazon Sales Dashboard** created in **Microsoft Excel** for the year **2024**. This project allows users to track and analyze sales performance, product distribution, and regional insights using pivot tables, charts, slicers, and KPIs.
+A visually interactive and insightful **Amazon Sales Dashboard** created in **Microsoft Excel**. This dashboard analyzes sales performance, product demand, and regional performance using pivot tables, slicers, charts, and KPIs.
+
+---
+
+## 📸 Dashboard Preview
+
+![Amazon Sales Dashboard](https://raw.githubusercontent.com/amitpachpute2510/Amezon-Sales-DashBords/refs/heads/main/DASHBORDS.JPG)
 
 ---
 
 ## 🧾 Project Overview
 
-This Excel dashboard provides a complete summary of Amazon product sales, including:
+This project provides a comprehensive view of Amazon’s 2024 sales across cities, states, and products. It includes:
 
-- Total Revenue and Units Sold
-- Sales performance vs. targets
-- Product-wise and city/state-wise breakdown
-- Interactive visualizations
-- Clean, user-friendly layout
+- 📦 Total revenue and units sold
+- 📈 Sales trends by city and product
+- 🗺️ State-wise sales heatmap
+- 🎯 KPI tracking (target vs actual)
+- 🧮 Pivot tables and slicers for interactivity
 
 ---
 
 ## 📂 File Structure
 
-| File Name     | Description                                                        |
-|---------------|--------------------------------------------------------------------|
-| `Sales Data`  | Raw transactional data (Date, SalesRep, Product, Units, Price, etc.) |
-| `Pivot Table` | Data summarized using Excel pivot tables                           |
-| `DASHBOARD`   | Final interactive dashboard with KPIs and charts                   |
+| File Name       | Description                                                |
+|------------------|------------------------------------------------------------|
+| `Sales Data`     | Raw sales transactions (Date, SalesRep, Product, Units, etc.) |
+| `Pivot Table`    | Data summary using Excel pivot tables                      |
+| `Dashboard`      | Final visual dashboard                                     |
 
 ---
 
-## 📌 Key Features
+## 🧮 Raw Data Snapshot
 
-- ✅ **KPI Summary** (Revenue, Units Sold, Cities)
-- 📦 **Top Selling Products**
-- 🌍 **Geographic Sales by City and State**
-- 📈 **Trend Line Chart** for City-wise Sales
-- 🗺️ **Map Visualization** for State Performance
-- 🎯 **Target vs Actual** analysis with % achievement
-- 📅 **Day-wise Sales Insights**
+![Raw Sales Data](https://raw.githubusercontent.com/amitpachpute2510/Amezon-Sales-DashBords/refs/heads/main/DATA.JPG)
 
 ---
 
-## 📊 KPIs Overview
+## 📊 Pivot Table Summary
+
+![Pivot Table](https://raw.githubusercontent.com/amitpachpute2510/Amezon-Sales-DashBords/refs/heads/main/PIOVT_TABLE.JPG)
+
+---
+
+## 📌 KPI Highlights
 
 | Metric             | Actual        | Target        | % Achieved | Difference |
 |--------------------|---------------|---------------|------------|------------|
@@ -48,60 +54,60 @@ This Excel dashboard provides a complete summary of Amazon product sales, includ
 
 ---
 
-## 🏆 Top 5 Products
+## 🏆 Top Products by Units Sold
 
-| Product                  | Units Sold |
-|--------------------------|------------|
-| Nestle Smarties Pop-Up   | 5,267      |
-| Nestle Fab               | 4,375      |
-| Nestle Aero Mint Potz    | 4,262      |
-| Nestle Milky Bar Stick   | 4,153      |
-| Nestle Toffee Crumble    | 3,586      |
-
----
-
-## 📍 Top 5 States by Sales
-
-| State         | Sales      |
-|---------------|------------|
-| Maharashtra   | 1,779,810  |
-| Delhi         | 1,764,426  |
-| West Bengal   | 929,958    |
-| Gujarat       | 685,672    |
-| Kerala        | 624,840    |
+| Product                    | Units Sold |
+|----------------------------|------------|
+| Nestle Smarties Pop-Up     | 5,267      |
+| Nestle Fab                 | 4,375      |
+| Nestle Aero Mint Potz      | 4,262      |
+| Nestle Milky Bar Stick     | 4,153      |
+| Nestle Toffee Crumble      | 3,586      |
 
 ---
 
-## 🔍 Insights
+## 📍 Top States by Sales
 
-- **Maharashtra** and **Delhi** dominate sales figures.
-- **Nestle Smarties Pop-Up** is the best-selling product.
-- Sales peak on **Fridays and Saturdays**.
-- Cities like **Nagpur, Pune, Ahmedabad** show strong performance.
+| State           | Sales      |
+|------------------|------------|
+| Maharashtra      | ₹1,779,810 |
+| Delhi            | ₹1,764,426 |
+| West Bengal      | ₹929,958   |
+| Gujarat          | ₹685,672   |
+| Kerala           | ₹624,840   |
 
 ---
 
-## 🚀 How to Use
+## 🔍 Key Insights
 
-1. Open the Excel file.
-2. Use the **Sales Data** sheet to view raw data.
-3. Explore summaries via the **Pivot Table** sheet.
-4. Navigate to **DASHBOARD** to interact with charts and KPIs.
-5. Use slicers and filters for customized views.
+- **Maharashtra** and **Delhi** are the top-performing states.
+- **Nestle Smarties Pop-Up** is the most sold product.
+- Peak sales occur on **Fridays and Saturdays**.
+- Cities like **Nagpur, Pune, Ahmedabad** show consistent high performance.
+
+---
+
+## 🚀 How to Use This Dashboard
+
+1. Open the Excel workbook.
+2. Go to the **Sales Data** sheet to view transactions.
+3. Navigate to the **Pivot Table** sheet for summarized insights.
+4. Explore the **DASHBOARD** sheet for visual analysis.
+5. Use slicers and filters to explore data interactively.
 
 ---
 
 ## 🛠 Built With
 
 - Microsoft Excel
-- Pivot Tables & Charts
+- Pivot Tables & Pivot Charts
 - Slicers & Filters
 - Conditional Formatting
-- Formulas & KPI Metrics
+- KPI Cards
 
 ---
 
-## 📥 Download
+## 📥 Clone This Project
 
 ```bash
 git clone https://github.com/yourusername/amazon-sales-dashboard-excel.git
